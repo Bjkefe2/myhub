@@ -1,0 +1,695 @@
+for i,v in pairs(game:GetService("CoreGui"):GetDescendants()) do
+    if v.Name == "Gui Hub" or v.Name == "Login" or v.Name == "Main Scripts" then
+        v:Destroy()
+    end
+end
+
+
+function LootGround()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bjkefe2/LOOTGROUND/main/loot%20battleground"))()
+    end
+
+
+
+local GuiHub = Instance.new("ScreenGui")
+local Login = Instance.new("Frame")
+local Yesil1 = Instance.new("TextLabel")
+local Yesil2 = Instance.new("TextLabel")
+local yesil3 = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local HubName = Instance.new("TextLabel")
+local GameDetecting = Instance.new("TextLabel")
+local Updates = Instance.new("Frame")
+local Close = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local Features = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local LiftLegendsSimulator = Instance.new("TextLabel")
+local VehicleSimulator = Instance.new("TextLabel")
+local LootBattleGrounds = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local DestroyGui = Instance.new("TextButton")
+local AdoptMeWorking = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local SchoolTycoonWorking = Instance.new("TextLabel")
+local MainScripts = Instance.new("Frame")
+local Close1 = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local PlayerScript = Instance.new("Frame")
+local WalkSpeed = Instance.new("TextButton")
+local JumpPower = Instance.new("TextButton")
+local Btools = Instance.new("TextButton")
+local InfiniteJumo = Instance.new("TextButton")
+local ClickTP = Instance.new("TextButton")
+local ClickDestroy = Instance.new("TextButton")
+local KickBypassnotallGames = Instance.new("TextButton")
+local TPPlayer = Instance.new("TextButton")
+local TpPlayerBox = Instance.new("TextBox")
+local AllValues = Instance.new("TextButton")
+
+--Properties:
+
+GuiHub.Name = "Gui Hub"
+GuiHub.Parent = game.CoreGui
+GuiHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Login.Name = "Login"
+Login.Parent = GuiHub
+Login.Active = true
+Login.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Login.BorderSizePixel = 0
+Login.Position = UDim2.new(0.354381472, 0, 0.305243462, 0)
+Login.Size = UDim2.new(0, 225, 0, 141)
+
+Yesil1.Name = "Yesil 1"
+Yesil1.Parent = Login
+Yesil1.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Yesil1.BorderColor3 = Color3.fromRGB(162, 165, 163)
+Yesil1.Position = UDim2.new(0.182222217, 0, 0.418439716, 0)
+Yesil1.Size = UDim2.new(0, 45, 0, 22)
+Yesil1.Font = Enum.Font.SourceSans
+Yesil1.Text = ""
+Yesil1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yesil1.TextSize = 14.000
+
+Yesil2.Name = "Yesil2"
+Yesil2.Parent = Login
+Yesil2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Yesil2.BackgroundTransparency = 1.000
+Yesil2.BorderColor3 = Color3.fromRGB(162, 165, 163)
+Yesil2.Position = UDim2.new(0.382222205, 0, 0.418439716, 0)
+Yesil2.Size = UDim2.new(0, 45, 0, 22)
+Yesil2.Font = Enum.Font.SourceSans
+Yesil2.Text = ""
+Yesil2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yesil2.TextSize = 14.000
+
+yesil3.Name = "yesil3"
+yesil3.Parent = Login
+yesil3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+yesil3.BackgroundTransparency = 1.000
+yesil3.BorderColor3 = Color3.fromRGB(162, 165, 163)
+yesil3.Position = UDim2.new(0.582222223, 0, 0.418439716, 0)
+yesil3.Size = UDim2.new(0, 45, 0, 22)
+yesil3.Font = Enum.Font.SourceSans
+yesil3.Text = ""
+yesil3.TextColor3 = Color3.fromRGB(0, 0, 0)
+yesil3.TextSize = 14.000
+
+TextLabel.Parent = Login
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(162, 165, 163)
+TextLabel.Position = UDim2.new(0.182222217, 0, 0.418439716, 0)
+TextLabel.Size = UDim2.new(0, 135, 0, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Login
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderColor3 = Color3.fromRGB(162, 165, 163)
+TextLabel_2.Position = UDim2.new(0.182222217, 0, 0.574468076, 0)
+TextLabel_2.Size = UDim2.new(0, 135, 0, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Login
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BorderColor3 = Color3.fromRGB(162, 165, 163)
+TextLabel_3.Position = UDim2.new(0.182222217, 0, 0.418439716, 0)
+TextLabel_3.Size = UDim2.new(0, 0, 0, 22)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Login
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BorderColor3 = Color3.fromRGB(162, 165, 163)
+TextLabel_4.Position = UDim2.new(0.782222271, 0, 0.418439716, 0)
+TextLabel_4.Size = UDim2.new(0, 0, 0, 22)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = ""
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+HubName.Name = "Hub Name"
+HubName.Parent = Login
+HubName.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+HubName.Size = UDim2.new(0, 225, 0, 24)
+HubName.Font = Enum.Font.SourceSans
+HubName.Text = "bjkefe hub"
+HubName.TextColor3 = Color3.fromRGB(255, 255, 255)
+HubName.TextSize = 14.000
+
+GameDetecting.Name = "Game Detecting"
+GameDetecting.Parent = Login
+GameDetecting.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+GameDetecting.BackgroundTransparency = 1.000
+GameDetecting.Position = UDim2.new(0.182222217, 0, 0.248226956, 0)
+GameDetecting.Size = UDim2.new(0, 135, 0, 24)
+GameDetecting.Font = Enum.Font.SourceSans
+GameDetecting.Text = "Game Detecting..."
+GameDetecting.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameDetecting.TextSize = 14.000
+
+Updates.Name = "Updates"
+Updates.Parent = GuiHub
+Updates.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Updates.Position = UDim2.new(0.0257731955, 0, 0.0318352059, 0)
+Updates.Size = UDim2.new(0, 200, 0, 40)
+Updates.Visible = false
+Updates.Active = true
+Updates.Draggable = true
+
+Close.Name = "Close"
+Close.Parent = Updates
+Close.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.830157459, 0, 0, 0)
+Close.Size = UDim2.new(0, 33, 0, 40)
+Close.Font = Enum.Font.SciFi
+Close.Text = "+"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 30.000
+Close.MouseButton1Down:Connect(function()
+	if Features.Visible == true then
+		Features.Visible = false
+	else
+		if Features.Visible == false then
+			Features.Visible = true
+		end
+	end
+end)
+TextLabel_5.Parent = Updates
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(0, 167, 0, 40)
+TextLabel_5.Font = Enum.Font.SciFi
+TextLabel_5.Text = "Update Log"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+Features.Name = "Features"
+Features.Parent = Updates
+Features.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Features.Position = UDim2.new(0, 0, 1, 0)
+Features.Size = UDim2.new(0, 200, 0, 171)
+
+
+TextLabel_6.Parent = Features
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BackgroundTransparency = 0.500
+TextLabel_6.BorderColor3 = Color3.fromRGB(163, 165, 162)
+TextLabel_6.BorderSizePixel = 2
+TextLabel_6.Size = UDim2.new(0, 200, 0, 19)
+TextLabel_6.Font = Enum.Font.SciFi
+TextLabel_6.Text = "Update:6/12/2020"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+LiftLegendsSimulator.Name = "Lift Legends Simulator"
+LiftLegendsSimulator.Parent = Features
+LiftLegendsSimulator.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LiftLegendsSimulator.BackgroundTransparency = 1.000
+LiftLegendsSimulator.BorderColor3 = Color3.fromRGB(163, 165, 162)
+LiftLegendsSimulator.BorderSizePixel = 0
+LiftLegendsSimulator.Position = UDim2.new(0, 0, 0.107251301, 0)
+LiftLegendsSimulator.Size = UDim2.new(0, 200, 0, 19)
+LiftLegendsSimulator.Font = Enum.Font.SourceSans
+LiftLegendsSimulator.Text = "Lift Legends Simulator:Working"
+LiftLegendsSimulator.TextColor3 = Color3.fromRGB(170, 0, 0)
+LiftLegendsSimulator.TextSize = 14.000
+
+VehicleSimulator.Name = "Vehicle Simulator"
+VehicleSimulator.Parent = Features
+VehicleSimulator.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+VehicleSimulator.BackgroundTransparency = 1.000
+VehicleSimulator.BorderColor3 = Color3.fromRGB(163, 165, 162)
+VehicleSimulator.BorderSizePixel = 0
+VehicleSimulator.Position = UDim2.new(0, 0, 0.214502558, 0)
+VehicleSimulator.Size = UDim2.new(0, 200, 0, 19)
+VehicleSimulator.Font = Enum.Font.SourceSans
+VehicleSimulator.Text = "Vehicle Simulator:Working"
+VehicleSimulator.TextColor3 = Color3.fromRGB(170, 0, 0)
+VehicleSimulator.TextSize = 14.000
+
+LootBattleGrounds.Name = "LootBattleGrounds"
+LootBattleGrounds.Parent = Features
+LootBattleGrounds.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LootBattleGrounds.BackgroundTransparency = 1.000
+LootBattleGrounds.BorderColor3 = Color3.fromRGB(163, 165, 162)
+LootBattleGrounds.BorderSizePixel = 0
+LootBattleGrounds.Position = UDim2.new(0, 0, 0.32175383, 0)
+LootBattleGrounds.Size = UDim2.new(0, 200, 0, 19)
+LootBattleGrounds.Font = Enum.Font.SourceSans
+LootBattleGrounds.Text = "LootBattleGrounds:Working"
+LootBattleGrounds.TextColor3 = Color3.fromRGB(170, 0, 0)
+LootBattleGrounds.TextSize = 14.000
+
+Credits.Name = "Credits"
+Credits.Parent = Features
+Credits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Credits.BorderColor3 = Color3.fromRGB(163, 165, 162)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0, 0, 0.767160892, 0)
+Credits.Size = UDim2.new(0, 200, 0, 19)
+Credits.Font = Enum.Font.SciFi
+Credits.Text = "Credits:#efeeee#8151"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 14.000
+
+DestroyGui.Name = "Destroy Gui"
+DestroyGui.Parent = Features
+DestroyGui.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+DestroyGui.BackgroundTransparency = 0.500
+DestroyGui.Position = UDim2.new(0, 0, 0.883825302, 0)
+DestroyGui.Size = UDim2.new(0, 200, 0, 19)
+DestroyGui.Font = Enum.Font.SourceSans
+DestroyGui.Text = "Destroy Gui"
+DestroyGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+DestroyGui.TextSize = 20.000
+DestroyGui.MouseButton1Down:Connect(function()
+	Features.Visible = false
+	Updates.Visible = false
+end)
+AdoptMeWorking.Name = "Adopt Me:Working"
+AdoptMeWorking.Parent = Features
+AdoptMeWorking.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AdoptMeWorking.BackgroundTransparency = 1.000
+AdoptMeWorking.BorderColor3 = Color3.fromRGB(163, 165, 162)
+AdoptMeWorking.BorderSizePixel = 0
+AdoptMeWorking.Position = UDim2.new(0, 0, 0.549824059, 0)
+AdoptMeWorking.Size = UDim2.new(0, 200, 0, 19)
+AdoptMeWorking.Font = Enum.Font.SourceSans
+AdoptMeWorking.Text = "Adopt me:Working"
+AdoptMeWorking.TextColor3 = Color3.fromRGB(170, 0, 0)
+AdoptMeWorking.TextSize = 14.000
+
+TextLabel_7.Parent = Features
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BackgroundTransparency = 0.500
+TextLabel_7.BorderColor3 = Color3.fromRGB(163, 165, 162)
+TextLabel_7.BorderSizePixel = 2
+TextLabel_7.Position = UDim2.new(0, 0, 0.444444448, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 19)
+TextLabel_7.Font = Enum.Font.SciFi
+TextLabel_7.Text = "Update:8/12/2020"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+SchoolTycoonWorking.Name = "School Tycoon:Working"
+SchoolTycoonWorking.Parent = Features
+SchoolTycoonWorking.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+SchoolTycoonWorking.BackgroundTransparency = 1.000
+SchoolTycoonWorking.BorderColor3 = Color3.fromRGB(163, 165, 162)
+SchoolTycoonWorking.BorderSizePixel = 0
+SchoolTycoonWorking.Position = UDim2.new(0, 0, 0.660935163, 0)
+SchoolTycoonWorking.Size = UDim2.new(0, 200, 0, 19)
+SchoolTycoonWorking.Font = Enum.Font.SourceSans
+SchoolTycoonWorking.Text = "School Tycoon:Working"
+SchoolTycoonWorking.TextColor3 = Color3.fromRGB(170, 0, 0)
+SchoolTycoonWorking.TextSize = 14.000
+
+MainScripts.Name = "Main Scripts"
+MainScripts.Parent = GuiHub
+MainScripts.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+MainScripts.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MainScripts.Position = UDim2.new(0.713917613, 0, 0.0318352059, 0)
+MainScripts.Size = UDim2.new(0, 200, 0, 40)
+MainScripts.Visible = true
+MainScripts.Active = true
+MainScripts.Draggable = true
+
+Close1.Name = "Close1"
+Close1.Parent = MainScripts
+Close1.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Close1.BackgroundTransparency = 1.000
+Close1.Position = UDim2.new(0.832657456, 0, 0, 0)
+Close1.Size = UDim2.new(0, 33, 0, 40)
+Close1.Font = Enum.Font.SciFi
+Close1.Text = "+"
+Close1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close1.TextSize = 30.000
+Close1.MouseButton1Down:Connect(function()
+	if PlayerScript.Visible == false then
+		PlayerScript.Visible = true
+	else
+		if PlayerScript.Visible == true then
+			PlayerScript.Visible = false
+		end
+	end
+end)
+
+TextLabel_8.Parent = MainScripts
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0300000049, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 167, 0, 40)
+TextLabel_8.Font = Enum.Font.SciFi
+TextLabel_8.Text = "Local Player Scripts"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+PlayerScript.Name = "Player Script"
+PlayerScript.Parent = MainScripts
+PlayerScript.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+PlayerScript.Position = UDim2.new(0, 0, 1, 0)
+PlayerScript.Size = UDim2.new(0, 200, 0, 199)
+PlayerScript.Visible = false
+PlayerScript.Active = true
+PlayerScript.Draggable = true
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = PlayerScript
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WalkSpeed.BorderColor3 = Color3.fromRGB(162, 163, 165)
+WalkSpeed.BorderSizePixel = 0
+WalkSpeed.Size = UDim2.new(0, 200, 0, 19)
+WalkSpeed.Font = Enum.Font.SourceSans
+WalkSpeed.Text = "WalkSpeed +10"
+WalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 0)
+WalkSpeed.TextSize = 14.000
+WalkSpeed.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed + 10
+end)
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = PlayerScript
+JumpPower.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+JumpPower.BorderColor3 = Color3.fromRGB(162, 163, 165)
+JumpPower.BorderSizePixel = 0
+JumpPower.Position = UDim2.new(0, 0, 0.188019931, 0)
+JumpPower.Size = UDim2.new(0, 200, 0, 19)
+JumpPower.Font = Enum.Font.SourceSans
+JumpPower.Text = "JumpPower +10"
+JumpPower.TextColor3 = Color3.fromRGB(255, 255, 0)
+JumpPower.TextSize = 14.000
+JumpPower.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = game.Players.LocalPlayer.Character.Humanoid.JumpPower + 10
+end)
+
+Btools.Name = "Btools"
+Btools.Parent = PlayerScript
+Btools.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Btools.BorderColor3 = Color3.fromRGB(162, 163, 165)
+Btools.BorderSizePixel = 0
+Btools.Position = UDim2.new(-0.00499999523, 0, 0.0946329236, 0)
+Btools.Size = UDim2.new(0, 200, 0, 19)
+Btools.Font = Enum.Font.SourceSans
+Btools.Text = "Btools"
+Btools.TextColor3 = Color3.fromRGB(255, 255, 0)
+Btools.TextSize = 14.000
+Btools.MouseButton1Down:Connect(function()
+	a = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+	a.BinType = 2
+	b = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+	b.BinType = 3
+	c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+	c.BinType = 4
+end)
+InfiniteJumo.Name = "Infinite Jumo"
+InfiniteJumo.Parent = PlayerScript
+InfiniteJumo.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+InfiniteJumo.BorderColor3 = Color3.fromRGB(162, 163, 165)
+InfiniteJumo.BorderSizePixel = 0
+InfiniteJumo.Position = UDim2.new(-0.00499999523, 0, 0.282652915, 0)
+InfiniteJumo.Size = UDim2.new(0, 200, 0, 19)
+InfiniteJumo.Font = Enum.Font.SourceSans
+InfiniteJumo.Text = "Infinite Jump"
+InfiniteJumo.TextColor3 = Color3.fromRGB(255, 255, 0)
+InfiniteJumo.TextSize = 14.000
+InfiniteJumo.MouseButton1Down:Connect(function()
+	local infjump = true
+	game:GetService("UserInputService").JumpRequest:connect(function()
+		if infjump then
+			game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+		end
+	end)
+end)
+ClickTP.Name = "Click TP"
+ClickTP.Parent = PlayerScript
+ClickTP.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ClickTP.BorderColor3 = Color3.fromRGB(162, 163, 165)
+ClickTP.BorderSizePixel = 0
+ClickTP.Position = UDim2.new(-0.00499999523, 0, 0.375195503, 0)
+ClickTP.Size = UDim2.new(0, 200, 0, 19)
+ClickTP.Font = Enum.Font.SourceSans
+ClickTP.Text = "TP[E]"
+ClickTP.TextColor3 = Color3.fromRGB(255, 255, 0)
+ClickTP.TextSize = 14.000
+ClickTP.MouseButton1Down:Connect(function()
+
+	plr = game.Players.LocalPlayer 
+	hum = plr.Character.HumanoidRootPart
+	mouse = plr:GetMouse() 
+
+	mouse.KeyDown:connect(function(key)
+		if key:lower() == "e" then
+			if mouse.Target then 
+				hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z) 
+			end 
+		end
+	end)
+
+end)
+
+
+ClickDestroy.Name = "ClickDestroy"
+ClickDestroy.Parent = PlayerScript
+ClickDestroy.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ClickDestroy.BorderColor3 = Color3.fromRGB(162, 163, 165)
+ClickDestroy.BorderSizePixel = 0
+ClickDestroy.Position = UDim2.new(-0.00499999523, 0, 0.467738152, 0)
+ClickDestroy.Size = UDim2.new(0, 200, 0, 19)
+ClickDestroy.Font = Enum.Font.SourceSans
+ClickDestroy.Text = "ClickDestroy[P]"
+ClickDestroy.TextColor3 = Color3.fromRGB(255, 255, 0)
+ClickDestroy.TextSize = 14.000
+ClickDestroy.MouseButton1Down:Connect(function()
+	plr = game.Players.LocalPlayer 
+	mouse = plr:GetMouse() 
+
+	mouse.KeyDown:connect(function(key)
+		if key:lower() == "p" then
+			if mouse.Target then 
+				mouse.Target:Destroy()
+			end 
+		end
+	end)
+
+
+end)
+
+KickBypassnotallGames.Name = "Kick Bypass(not all Games)"
+KickBypassnotallGames.Parent = PlayerScript
+KickBypassnotallGames.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+KickBypassnotallGames.BorderColor3 = Color3.fromRGB(162, 163, 165)
+KickBypassnotallGames.BorderSizePixel = 0
+KickBypassnotallGames.Position = UDim2.new(-0.00499999523, 0, 0.5602808, 0)
+KickBypassnotallGames.Size = UDim2.new(0, 200, 0, 19)
+KickBypassnotallGames.Font = Enum.Font.SourceSans
+KickBypassnotallGames.Text = "Kick Bypass(not All games)"
+KickBypassnotallGames.TextColor3 = Color3.fromRGB(255, 255, 0)
+KickBypassnotallGames.TextSize = 14.000
+KickBypassnotallGames.MouseButton1Down:Connect(function()
+	if is_synapse_function then
+		local mt = getrawmetatable(game)
+		setreadonly(mt,false)
+		oldindex = mt.__namecall
+		----------------------------------
+		mt.__namecall = newcclosure(function(self,...)
+			local args = {...}
+			local method = getnamecallmethod()
+			----------------------------------
+			if method == "Kick" or method == "kick" then
+				return nil
+			end
+			return oldindex(self,...)
+		end)
+	else
+		if is_protosmasher_closure  then
+			local mt = getrawmetatable(game)
+			local oldmt = mt.__index
+			make_writeable(mt)
+
+			mt.__index = function(t,i)
+				if i == "Kick" then
+					return nil
+				end
+				return oldmt(t,i)
+			end
+
+
+		end
+
+	end
+end)
+TPPlayer.Name = "TP Player"
+TPPlayer.Parent = PlayerScript
+TPPlayer.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TPPlayer.BorderColor3 = Color3.fromRGB(162, 163, 165)
+TPPlayer.BorderSizePixel = 0
+TPPlayer.Position = UDim2.new(-0.00499999523, 0, 0.778756022, 0)
+TPPlayer.Size = UDim2.new(0, 200, 0, 19)
+TPPlayer.Font = Enum.Font.SourceSans
+TPPlayer.Text = "Tp Player"
+TPPlayer.TextColor3 = Color3.fromRGB(255, 255, 0)
+TPPlayer.TextSize = 14.000
+TPPlayer.MouseButton1Down:Connect(function()
+	for i,v in pairs(game:GetDescendants()) do
+		if v.Name == "HumanoidRootPart" and string.find(v.Parent.Name:lower(),TpPlayerBox.Text) then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+
+		end
+	end
+
+end)
+TpPlayerBox.Name = "Tp Player Box"
+TpPlayerBox.Parent = PlayerScript
+TpPlayerBox.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TpPlayerBox.Position = UDim2.new(0, 0, 0.866273582, 0)
+TpPlayerBox.Size = UDim2.new(0, 200, 0, 28)
+TpPlayerBox.Font = Enum.Font.SourceSans
+TpPlayerBox.Text = ""
+TpPlayerBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpPlayerBox.TextSize = 14.000
+
+AllValues.Name = "All Values"
+AllValues.Parent = PlayerScript
+AllValues.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AllValues.BorderColor3 = Color3.fromRGB(162, 163, 165)
+AllValues.BorderSizePixel = 0
+AllValues.Position = UDim2.new(-0.00499999523, 0, 0.652823269, 0)
+AllValues.Size = UDim2.new(0, 200, 0, 19)
+AllValues.Font = Enum.Font.SourceSans
+AllValues.Text = "All Values max"
+AllValues.TextColor3 = Color3.fromRGB(255, 255, 0)
+AllValues.TextSize = 14.000
+AllValues.MouseButton1Down:Connect(function()
+	for i,v in pairs(game.Players.LocalPlayer:GetDescendants()) do
+		if v.ClassName == "NumberValue" or v.ClassName == "StringValue" then
+			v.Value = 99999999
+
+			if v.ClassName == "BoolValue" then
+				v.Value = true
+				for i2,v2 in pairs(game.Workspace[game.Players.LocalPlayer.Name]:GetDescendants()) do
+					if v2.ClassName == "NumberValue" or v2.ClassName == "StringValue" then
+						v2.Value = 9999999
+						if v2.ClassName == "BoolValue" then
+							v2.Value = true
+							for i3,v3 in pairs(game.ReplicatedStorage:GetDescendants()) do
+								if v3.ClassName == "NumberValue" or v3.ClassName == "StringValue" then
+									v3.Value = 99999999
+									if v3.ClassName == "BoolValue" then
+										v3.Value = true
+
+									end
+								end
+							end
+
+						end
+					end
+				end
+			end
+		end
+	end
+end)
+Yesil1.BorderSizePixel = 0
+Yesil2.BorderSizePixel = 0
+yesil3.BorderSizePixel = 0
+
+wait(1)
+game:GetService("CoreGui")["Gui Hub"].Login["Yesil 1"].BackgroundColor3 = Color3.fromRGB(0,255,0)
+game:GetService("CoreGui")["Gui Hub"].Login["Yesil 1"].BackgroundTransparency = 0
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game Detecting."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game Detecting.."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game Detecting..."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game Detecting."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game Detecting.."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game Detecting..."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game Detecting."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game Detecting.."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game Detecting..."
+
+game:GetService("CoreGui")["Gui Hub"].Login.Yesil2.BackgroundColor3 = Color3.fromRGB(0,255,0)
+game:GetService("CoreGui")["Gui Hub"].Login.Yesil2.BackgroundTransparency = 0
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Scanning."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Scanning.."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Scanning..."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Scanning."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Scanning.."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Scanning..."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Scanning."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Scanning.."
+wait(0.5)
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Scanning..."
+game:GetService("CoreGui")["Gui Hub"].Login.yesil3.BackgroundColor3 = Color3.fromRGB(0,255,0)
+game:GetService("CoreGui")["Gui Hub"].Login.yesil3.BackgroundTransparency = 0
+if game.gameId == 688930313 then
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game:Vehicle Tycoon"
+wait(3)
+game:GetService("CoreGui")["Gui Hub"].Login:Destroy()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bjkefe2/vehicle-tycoonn/main/vehicle"))()
+else 
+    if game.gameId == 2021822948 then
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game:Lift Legends Simulator"
+wait(3)
+game:GetService("CoreGui")["Gui Hub"].Login:Destroy()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bjkefe2/lift-lefens-sim1.4/main/lift%20legenbd%20sim"))() -- Lift Legend
+
+        else
+            if game.gameId == 2178164856  then
+              
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game:Loot BattleGrounds"
+wait(3)
+game:GetService("CoreGui")["Gui Hub"].Login:Destroy()
+LootGround()
+else
+    if game.gameId == 383310974 then
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game:Adopt Me"
+wait(3)
+game:GetService("CoreGui")["Gui Hub"].Login:Destroy()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bjkefe2/adopt-me/main/Adopt"))()
+else
+    if game.gameId == 1810365079 then
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Game:School Tycoon "
+wait(3)
+game:GetService("CoreGui")["Gui Hub"].Login:Destroy()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bjkefe2/schoooll-tycon/main/scccc"))()
+else
+game:GetService("CoreGui")["Gui Hub"].Login["Game Detecting"].Text = "Not Found Game"
+wait(3)
+game:GetService("CoreGui")["Gui Hub"].Login:Destroy()
+end
+end
+
+
+
+
+
+end
+end
+end
