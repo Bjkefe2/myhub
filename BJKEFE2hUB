@@ -164,7 +164,7 @@ Updates.Parent = GuiHub
 Updates.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Updates.Position = UDim2.new(0.0257731955, 0, 0.0318352059, 0)
 Updates.Size = UDim2.new(0, 200, 0, 40)
-Updates.Visible = false
+Updates.Visible = true
 Updates.Active = true
 Updates.Draggable = true
 
@@ -201,6 +201,8 @@ Features.Parent = Updates
 Features.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Features.Position = UDim2.new(0, 0, 1, 0)
 Features.Size = UDim2.new(0, 200, 0, 171)
+Features.Visible = false
+
 
 
 TextLabel_6.Parent = Features
